@@ -1,5 +1,10 @@
 # dsy1103_orders
-Demo de una app web basada en microservicios basada en el framework Spring Boot (Java). Se hace uso del decorador @RestController (https://spring.io/guides/gs/rest-service) para construir una API Rest.
+Demo del microservicio ```orders``` de la app web de un e-commerce. Los microservicios disponibles son:
+- https://github.com/toopazo/dsy1103_orders
+- https://github.com/toopazo/dsy1103_products
+
+## Framework y librerías
+La app web está basada en el framework Spring Boot (Java). Se hace uso del decorador @RestController (https://spring.io/guides/gs/rest-service) para construir una API Rest.
 
 Se usan las librerías:
 - JPA: https://spring.io/projects/spring-data-jpa
