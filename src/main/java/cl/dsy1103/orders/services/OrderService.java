@@ -4,7 +4,6 @@ import java.util.List;
 
 import jakarta.transaction.Transactional;
 
-import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
