@@ -80,7 +80,6 @@ Un ejemplo de respuesta de la API con el método GET en ```http://localhost:8082
                 }
             },
     
-    ...
 
     "_links": {
         "self": {
