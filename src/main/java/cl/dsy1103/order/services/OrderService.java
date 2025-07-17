@@ -1,4 +1,4 @@
-package cl.dsy1103.orders.services;
+package cl.dsy1103.order.services;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cl.dsy1103.orders.model.Order;
-import cl.dsy1103.orders.repository.OrderRepository;
+import cl.dsy1103.order.model.Order;
+import cl.dsy1103.order.repository.OrderRepository;
 
 @Service
 @Transactional

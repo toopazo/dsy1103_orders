@@ -1,13 +1,15 @@
-package cl.dsy1103.orders.assembler;
+package cl.dsy1103.order.assembler;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
-import cl.dsy1103.orders.model.Order;
-import cl.dsy1103.orders.controller.OrderController;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;
 import org.springframework.stereotype.Component;
+
+import cl.dsy1103.order.controller.OrderController;
+import cl.dsy1103.order.model.Order;
+
 import org.springframework.lang.NonNull;
 
 @Component

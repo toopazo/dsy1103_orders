@@ -1,10 +1,10 @@
-package cl.dsy1103.orders.repository;
+package cl.dsy1103.order.repository;
 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import cl.dsy1103.orders.model.Order;
+import cl.dsy1103.order.model.Order;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Integer> {

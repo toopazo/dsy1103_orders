@@ -1,4 +1,4 @@
-package cl.dsy1103.orders;
+package cl.dsy1103.order;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
 
-import cl.dsy1103.orders.controller.OrderController;
+import cl.dsy1103.order.controller.OrderController;
 
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 

@@ -1,4 +1,4 @@
-package cl.dsy1103.orders.controller;
+package cl.dsy1103.order.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import cl.dsy1103.orders.model.Order;
-import cl.dsy1103.orders.services.OrderService;
-import cl.dsy1103.orders.assembler.OrderModelAssembler;
+import cl.dsy1103.order.assembler.OrderModelAssembler;
+import cl.dsy1103.order.model.Order;
+import cl.dsy1103.order.services.OrderService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -44,8 +44,7 @@ public class OrderController {
 		List<EntityModel<Order>> orders = orderService.getOrders().stream()
                 .map(assembler::toModel)
                 .collect(Collectors.toList());
-		// Sort by id
-		// orders.sort((o1, o2) -> Integer.compare(o1.getContent().getId(), o2.getContent().getId()));
+		
 		CollectionModel<EntityModel<Order>> collection = CollectionModel.of(orders,
                 linkTo(methodOn(OrderController.class).getOrders()).withSelfRel());
 

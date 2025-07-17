@@ -1,4 +1,4 @@
-package cl.dsy1103.orders.model;
+package cl.dsy1103.order.model;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package cl.dsy1103.orders;
+package cl.dsy1103.order;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

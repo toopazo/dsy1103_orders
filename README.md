@@ -18,10 +18,10 @@ Se usan las librerías:
 
 La estructura del código se puede explorar con
 ```bash
-tree src/main/java/cl/dsy1103/orders/  -L 2
+tree src/main/java/cl/dsy1103/order/  -L 2
 ```
 ```bash
-src/main/java/cl/dsy1103/orders/
+src/main/java/cl/dsy1103/order/
 ├── assembler
 │   └── OrderModelAssembler.java
 ├── controller
@@ -29,7 +29,7 @@ src/main/java/cl/dsy1103/orders/
 ├── DataLoader.java
 ├── model
 │   └── Order.java
-├── OrdersApplication.java
+├── OrderApplication.java
 ├── repository
 │   └── OrderRepository.java
 └── services

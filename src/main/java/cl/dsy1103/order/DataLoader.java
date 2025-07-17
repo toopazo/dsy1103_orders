@@ -1,4 +1,4 @@
-package cl.dsy1103.orders;
+package cl.dsy1103.order;
 
 import net.datafaker.Faker;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
-import cl.dsy1103.orders.model.Order;
-import cl.dsy1103.orders.repository.OrderRepository;
+import cl.dsy1103.order.model.Order;
+import cl.dsy1103.order.repository.OrderRepository;
 
 import java.time.LocalDateTime;
 // import java.util.Random;
