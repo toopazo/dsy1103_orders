@@ -36,7 +36,18 @@ src/main/java/cl/dsy1103/order/
     └── OrderService.java
 ```
 
-## Breve ejemplo de respuesta
+## Breve ejemplo de peticion y respuesta
+
+Un ejemplo de petición es usar Postman con método POST en la url ```http://localhost:8082/api/v1/orders``` y con un body en formato JSON
+```
+{
+    "tableId": 10,
+    "menuId":11,
+    "menuCount":12,
+    "LocalDateTime": "2025-10-25"
+
+}
+```
 
 Un ejemplo de respuesta de la API con el método GET en ```http://localhost:8082/api/v1/orders``` es:
 ```json
